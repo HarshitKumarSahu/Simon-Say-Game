@@ -54,7 +54,7 @@ function checkAns (idx) {
         document.querySelector("body").style.background = "red";
         playAudio();
         setTimeout(function (){
-            document.querySelector("body").style.background = "linear-gradient(#C4ADC5, #B0B5E0 )";
+            document.querySelector("body").style.background = "#B0B5E0";
         },150);
         maxHighScore();
         reset();
